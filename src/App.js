@@ -16,11 +16,8 @@ function App() {
         <Header/>
 
         <main >
-
             <Carousel/>
-
             <AboutUs/>
-
             <Partners/>
             <Contact/>
         </main>
