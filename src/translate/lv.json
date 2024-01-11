@@ -1,0 +1,21 @@
+{
+  "homeBtn": "Sākums",
+  "aboutBtn": "Par mums",
+  "partnerBtn": "Partneri",
+  "contactBtn": "Sazināties ar mums",
+  "aboutUsTitle": "Par mums",
+  "aboutUsBody": "Mūsu uzņēmums ir apņēmies radīt inovatīvus risinājumus, apvienojot tehnoloģijas ar radošumu, lai sasniegtu izcilus rezultātus. Mēs piedāvājam unikālus produktus un pakalpojumus, kuru mērķis ir apmierināt mūsu klientu vajadzības. Mūsu komanda sastāv no pieredzējušiem profesionāļiem, kuri ir gatavi pieņemt izaicinājumus un sasniegt jaunas virsotnes attīstībā un nozarē.",
+  "contactTitle": "Sazināties ar mums",
+  "regNumber": "Reģ. Nr.",
+  "bank": "Banka",
+  "bankAccount": "Konts",
+  "contacts": "Contakti",
+  "phone": "Telefons",
+  "email": "E-pasts",
+  "contactFormTitle": "Nosūti ziņu",
+  "formName": "Vārds",
+  "formEmail": "E-pasts",
+  "emailTitle": "Tēma",
+  "emailBody": "Ziņa",
+  "sendBtn": "Atsūtit"
+}

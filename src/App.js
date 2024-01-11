@@ -1,23 +1,30 @@
-import logo from './logo.svg';
+import image from './images/apptron-logo-186x178.png'
 import './App.css';
+import Header from "./components/Header";
+import Carousel from "./components/Carousel";
+import './style/MainBody.css';
+import AboutUs from "./components/AboutUs";
+import Partners from "./components/Partners";
+import Contact from "./components/Contact";
 
 function App() {
-  return (
+
+
+    return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+        <Header/>
+
+        <main >
+
+            <Carousel/>
+
+            <AboutUs/>
+
+            <Partners/>
+            <Contact/>
+        </main>
+
     </div>
   );
 }

@@ -1,0 +1,102 @@
+.image{
+   width: 100%;
+    height: 80vh;
+
+}
+.partner-img{
+    width: 100%;
+    height: 26vh;
+    padding-right: 20px;
+    padding-left: 20px;
+
+}
+.partner{
+
+    padding-right: 20px;
+    padding-left: 20px;
+
+}
+.container {
+    /*padding-bottom: 5%;*/
+    margin-top: 20vh;
+    position: relative;
+}
+
+
+
+.objects-below-slider {
+    /*background-color: #efeeee; !* Цвет фона вашего заголовка *!*/
+
+
+    /*position: absolute;*/
+    bottom: 0;
+    left: 10vh;
+    right: 10vh;
+    top: 65vh;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.item {
+    border-radius: 3vh;
+
+    margin-left: 7vh;
+    margin-right: 7vh;
+    /*border: 1px solid #e37a7a;*/
+    background-color: #ffffff;
+    width: 40vh;
+    height: 100%;
+    display: flex;
+    flex-direction: column; /* Установка вертикального расположения элементов */
+    align-items: center; /* Выравнивание элементов по центру */
+    padding: 10px; /* Добавление внутренних отступов */
+    box-sizing: border-box; /* Чтобы padding не добавлялся к размерам контейнера */
+    overflow-wrap: break-word;
+    /*margin-bottom: 10vh;*/
+    box-shadow: 0 0 105px #efeeee; /* Используем цвет #efeeee для тени без прозрачности */
+
+}
+
+.item:hover{
+    transition: transform 1s ease; /* Добавляем анимацию для transform */
+
+    transform: scale(1.07); /* Увеличиваем размер фона кнопки при наведении */
+    /*box-shadow: 0 0 10px #efeeee; !* Используем цвет #efeeee для тени без прозрачности *!*/
+
+}
+.text-container {
+
+    min-height: 20%;
+    word-break: break-all;
+    /*margin-bottom: 19vh;*/
+}
+.text-container h3 {
+
+   font-family: "Arial Black";
+
+}
+.image-container {
+    width: 100%; /* Заполнение всей доступной ширины контейнера */
+   max-height:120px; /* Пример высоты контейнера изображения */
+    border: 2px solid #ffffff;
+    overflow: hidden;
+    display: flex;
+    justify-content: center; /* Выравнивание изображения по центру */
+    border-radius: 3vh;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    /*object-fit: contain; !* Сохранение пропорций изображения и вписывание его в контейнер *!*/
+}
+
+/*.image-container {*/
+/*    margin-top: 3vh;*/
+/*    width: 80%;*/
+/*    margin-left: 3vh;*/
+/*    height: 80%;*/
+/*    border: 2px solid black; !* Пример рамки: 2 пикселя черная рамка *!*/
+/*}*/
+

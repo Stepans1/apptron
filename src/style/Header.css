@@ -1,0 +1,53 @@
+.sticky-header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: #efeeee; /* Цвет фона вашего заголовка */
+    padding: 1%; /* Отступы для заголовка */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Небольшая тень для эффекта */
+    z-index: 1000; /* Убедитесь, что z-index выше других элементов */
+    max-width: 100%;
+}
+
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%; /* Пример: ограничьте ширину содержимого заголовка */
+    margin: 0 auto;
+}
+
+.logo {
+
+}
+
+.logo img{
+    width: 50%;
+    height: 50%;
+
+}
+
+.buttons {
+
+}
+.buttons button {
+    border: none;
+    transition: transform 1s ease; /* Добавляем анимацию для transform */
+
+    margin-right: 5vh; /* Пример отступа между кнопками в 10px, измените по вашему выбору */
+}
+
+.buttons button:hover{
+    /*background-color: #61dafb;*/
+
+    /*border-radius:3vh;*/
+    transform: scale(0.8); /* Увеличиваем размер фона кнопки при наведении */
+    background-color: #ffffff; /* Меняем цвет фона кнопки при наведении */
+    border-radius: 3vh;
+}
+
+/* Для последней кнопки не добавляем отступ справа */
+.buttons button:last-child {
+    margin-right: 20vh;
+}

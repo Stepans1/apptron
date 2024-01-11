@@ -1,0 +1,21 @@
+{
+  "homeBtn": "Home",
+  "aboutBtn": "About us",
+  "partnerBtn": "Partners",
+  "contactBtn": "Contact us",
+  "aboutUsTitle": "About us",
+  "aboutUsBody": "Our company is committed to creating innovative solutions, combining technology with creativity to achieve outstanding results. We offer unique products and services aimed at meeting the needs of our customers. Our team consists of experienced professionals who are ready to take on challenges and reach new heights in development and industry.",
+  "contactTitle": "Contact us",
+  "regNumber": "Reg.Number",
+  "bank": "Bank",
+  "bankAccount": "Bank account",
+  "contacts": "Contacts",
+  "phone": "Mobile phone",
+  "email": "Email",
+  "contactFormTitle": "Send email",
+  "formName": "Name",
+  "formEmail": "Email",
+  "emailTitle": "Title",
+  "emailBody": "Message",
+  "sendBtn": "Send"
+}

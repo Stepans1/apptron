@@ -1,0 +1,69 @@
+/*.contact{*/
+/*    background-color: #efeeee;*/
+
+/*}*/
+/*.info{*/
+/*    padding-bottom: 5vh;*/
+/*    text-align: left;*/
+/*    padding-left: 5vh;*/
+/*}*/
+.contact {
+    margin-top: 4vh;
+    background-color: #efeeee;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-column {
+    padding-left: 6vh;
+    padding-bottom: 5vh;
+    /*flex: 1; !* Растягиваем на всю доступную ширину *!*/
+    /*padding-right: 10px; !* Расстояние между колонками *!*/
+}
+
+.right-column {
+    padding-top: 5vh;
+    padding-right: 6vh;
+    /*flex: 1; !* Растягиваем на всю доступную ширину *!*/
+    /*padding-left: 10px; !* Расстояние между колонками *!*/
+}
+.oval-input {
+    border-radius: 20px; /* Значение может быть изменено в зависимости от ваших предпочтений */
+    padding: 10px; /* Добавьте необходимый внутренний отступ */
+    border: 1px solid #ccc; /* Линия границы для инпута */
+    outline: none; /* Удаление контура фокуса при нажатии */
+    /* Дополнительные стили по вашему усмотрению */
+}
+
+.textarea{
+    border-radius: 20px; /* Значение может быть изменено в зависимости от ваших предпочтений */
+    padding: 10px; /* Добавьте необходимый внутренний отступ */
+    border: 1px solid #ccc; /* Линия границы для инпута */
+    outline: none; /* Удаление контура фокуса при нажатии */
+    /* Дополнительные стили по вашему усмотрению */
+    width: 100%; /* Установка ширины textarea */
+    height: 100%;
+resize: none;
+}
+
+.sendButtons {
+
+}
+.sendButtons button {
+    border-radius: 3vh;
+
+    border: none;
+    transition: transform 1s ease; /* Добавляем анимацию для transform */
+background-color: #ffffff;
+    margin-right: 5vh; /* Пример отступа между кнопками в 10px, измените по вашему выбору */
+}
+
+.sendButtons button:hover{
+    /*background-color: #61dafb;*/
+
+    /*border-radius:3vh;*/
+    transform: scale(0.8); /* Увеличиваем размер фона кнопки при наведении */
+    background-color: #ffffff; /* Меняем цвет фона кнопки при наведении */
+    border-radius: 3vh;
+}
+
