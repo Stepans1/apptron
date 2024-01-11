@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import '../style/Contact.css';
-// import {Link} from "react-scroll";
+import {Link} from "react-scroll";
 import {useTranslation} from "react-i18next";
 const Contact = () => {
     const { t } = useTranslation();
